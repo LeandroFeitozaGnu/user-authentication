@@ -32,7 +32,7 @@ userRouter.post('/', async (req, res) => {
   const user = {
     id: result.id,
     name: result.name,
-    email: result.email
+    email: result.email 
   }
   console.log(user)
 
